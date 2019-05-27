@@ -10,7 +10,8 @@ If the user does not have any repositories, then a link for repository creation 
 
 
 
-***Creating Repositories***  
+> Creating Repositories  
+  
 On clicking the link, the user will get a pop-up which enables repository creation. The Namespace field will be auto-populated with the user ID, if needed it can be edited.  
 
 Users can also click the 'Create Repository' button for creating a repository.  
@@ -34,7 +35,7 @@ The repository can be updated by clicking the icon highlighted below:
 
 On clicking the link, the user will get a pop-up which enables editing and adding more namespaces to the repository, a new namespace can be added by clicking the highlighted button as below:  
 
-<img src="../images/tutorials/edit_repository_link/edit_repository_popUp_add.PNG" />  
+<img src="../images/tutorials/create_repository/edit_repository_popUp_add.PNG" />  
 
 In addition to the namespace, an official namespace can also be requested by clicking the highlighted link below:  
 
