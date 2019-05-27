@@ -63,3 +63,26 @@ On clicking the link, a pop-up with the default collaborator roles will be displ
   
 <img src="../images/tutorials/create_repository/Collaborate_users_default.PNG" />  
 <br /><br />
+
+The user roles can be edited by clicking the edit icon as below:  
+
+<img src="../images/tutorials/create_repository/Collaborate_users_edit.PNG" />  
+<br /><br />
+
+The roles will be listed as below:  
+
+<img src="../images/tutorials/create_repository/Collaborate_users_edit_role.PNG" />  
+<br /><br />
+
+The roles and their corresponding permission are listed below:  
+
+- VIEW permission to browse models
+- CREATE permission to create and modify models
+- PROMOTE permission to release models
+- REVIEW permission to review and approve models
+- Administrator permission to manage the current repository  
+
+
+
+
+
