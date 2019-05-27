@@ -4,9 +4,13 @@ An administrator can create his own private repository by navigating to the 'Man
 
 <img src="../images/tutorials/create_repository/initial_screen.PNG" />
 
+
+
 If the user does not have any repositories, then a link for repository creation will be displayed as shown below:
 
 <img src="../images/tutorials/create_repository/create_first_repository.PNG" />
+
+
 
 ***Creating Repositories***
 On clicking the link, the user will get a pop-up which enables repository creation. The Namespace field will be auto-populated with the user ID, if needed it can be edited.
