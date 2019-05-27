@@ -58,3 +58,8 @@ Collaborators can be managed by clicking the link as highlighted below. This opt
 
 <img src="../images/tutorials/create_repository/Collaborate_users_link.PNG" />  
 <br /><br />
+
+On clicking the link, a pop-up with the default collaborator roles will be displayed as below:  
+  
+<img src="../images/tutorials/create_repository/Collaborate_users_default.PNG" />  
+<br /><br />
