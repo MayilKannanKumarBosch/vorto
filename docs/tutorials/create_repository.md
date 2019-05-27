@@ -1,6 +1,6 @@
-# **Managing Repositories**    
+# Managing Repositories
 
-> An administrator can create his own private repository by navigating to the 'Manage Repositories' page, by clicking the 'Manage' tab as shown below:
+An administrator can create his own private repository by navigating to the 'Manage Repositories' page, by clicking the 'Manage' tab as shown below:
 
 <img src="../images/tutorials/create_repository/initial_screen.PNG" />
 
