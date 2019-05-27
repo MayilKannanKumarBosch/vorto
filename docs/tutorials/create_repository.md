@@ -80,8 +80,12 @@ The roles and their corresponding permission are listed below:
 - CREATE permission to create and modify models
 - PROMOTE permission to release models
 - REVIEW permission to review and approve models
-- Administrator permission to manage the current repository  
+- ADMINISTRATOR permission to manage the current repository  
 
+Additional users/collaborators can be added by clicking the 'Create' button'  
+
+<img src="../images/tutorials/create_repository/Collaborate_users_ADD_USER.PNG" />  
+<br /><br />
 
 
 
