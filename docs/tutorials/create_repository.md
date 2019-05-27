@@ -8,11 +8,9 @@ If the user does not have any repositories, then a link for repository creation 
 
 <img src="../images/tutorials/create_repository/create_first_repository.PNG" />  
 
-
-
-> Creating Repositories  
-  
-On clicking the link, the user will get a pop-up which enables repository creation. The Namespace field will be auto-populated with the user ID, if needed it can be edited.  
+ > ***Creating Repositories***  
+ 
+ On clicking the link, the user will get a pop-up which enables repository creation. The Namespace field will be auto-populated with the user ID, if needed it can be edited.  
 
 Users can also click the 'Create Repository' button for creating a repository.  
 
@@ -22,7 +20,7 @@ In addition to the namespace, an official namespace can also be requested by cli
 
 <img src="../images/tutorials/create_repository/Create_repository_official_namespace.PNG" />  
 
-On clicking the link the user's default mail client will open up with pre-populated subject and recipients.  
+On clicking the link the user's default mail client will open up with pre-populated subject and recipients.   
 
 <img src="../images/tutorials/create_repository/request_official_namespace.PNG" />  
 
