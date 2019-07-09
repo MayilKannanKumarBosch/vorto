@@ -4,31 +4,6 @@ dist: trusty
 jobs:
   include:
     - stage: deploy
-      name: "Publish Vorto-Mapper to NPM"
-      language: node_js
-      node_js:
-        - '10'
-        
-      script:
-        - echo "skipping tests"
-     
-      before_deploy:
-        - echo "Preparing for deploy to NPM" 
-        - cd mapping-engine-nodejs
-        
-      deploy:
-        provider: npm
-        email: Alexander.Edelmann@bosch-si.com
-        api_key:
-          secure: $NPM_API_TOKEN
-        on:
-          tags: true
-          branches:
-            only:
-              - master
-  
-  
-    - stage: deploy
       name: "Deploy Repository"
 
       language: java
@@ -61,13 +36,7 @@ jobs:
         - pip install --user awscli
 
       script:
-        - remark -i .remark_ignore -f -u validate-links .
-        - remark -i .remark_ignore -u lint-no-dead-urls .
-        - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
-          mvn --fail-fast -q clean package -DskipTests -P checkstyle;
-          mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -P coverage;
-          else mvn --fail-fast -q clean package -P checkstyle;
-          fi
+        - mvn --fail-fast -q clean package -DskipTests ;
 
       before_deploy:
         - export AWS_DEFAULT_REGION=$VORTO_S3_REGION
@@ -86,3 +55,4 @@ jobs:
             branch: 
               - development
               - master
+              - vorto_prod_new_test
