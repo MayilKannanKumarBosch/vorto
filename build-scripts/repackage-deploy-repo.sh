@@ -49,6 +49,8 @@ rm -rf ./aws-upload/tmp/*
 # list the contents of aws-upload folder
 ls -l ./aws-upload
 
+exit 0
+
 if [[ "$GIT_BRANCH" == "master" ]]
 then
   # uploading to s3 bucket

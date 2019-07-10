@@ -36,7 +36,7 @@ jobs:
         - pip install --user awscli
 
       script:
-        - mvn --fail-fast -q clean package -DskipTests ;
+        - mvn clean install -DskipTests ;
 
       before_deploy:
         - export AWS_DEFAULT_REGION=$VORTO_S3_REGION
